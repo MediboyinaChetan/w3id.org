@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-15"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Bridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Bridge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Lamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Lamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Microcomputer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Microcomputer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Thermostat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Thermostat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Vocal_Assistant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Vocal_Assistant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_Router -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_Router">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#AC_Adapter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#AC_Adapter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Batteries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Batteries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Blood_Pressure_Meter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Blood_Pressure_Meter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Sensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Bluetooth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Bluetooth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Boards_and_gateways -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Boards_and_gateways">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Ethernet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Ethernet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Google_Home -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Google_Home">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Healthcare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Healthcare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Home_Automation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Home_Automation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Nest_Mini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Nest_Mini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Vocal_Assistant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Omron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Omron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Orbi_App -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Orbi_App">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Orbi_dual_band_mesh_Wifi_6_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Orbi_dual_band_mesh_Wifi_6_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_Router"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue_Bridge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue_Bridge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Bridge"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue_White -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Philips_Hue_White">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Lamp"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Raspberry_Pi_4_Model_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Raspberry_Pi_4_Model_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Microcomputer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#SONOFF_IP_GK-200MP2-B_Wi-Fi_Wireless_IP_Security_Camera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#SONOFF_IP_GK-200MP2-B_Wi-Fi_Wireless_IP_Security_Camera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Camera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Soil_Moisture_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Soil_Moisture_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Device"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Sensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_2.4GHz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_2.4GHz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_5GHz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Wifi_5GHz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Zigbee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Zigbee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#Connectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#eWeLink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#eWeLink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#MobileApplication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#220-240V -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#220-240V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#5V -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#5V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chetanmediboyina/ontologies/2022/2/untitled-ontology-3#PoweredBy"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
